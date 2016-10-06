@@ -1,0 +1,9 @@
+// 将设置放入此文件中以覆盖默认设置
+{
+    "editor.fontFamily": "Source Code Pro,Fira Mono",
+    "editor.wordWrap": true,
+    "editor.mouseWheelZoom": true,
+    "editor.renderWhitespace": true,
+    "editor.renderIndentGuides": true,
+    "files.autoSave": "onFocusChange"
+}
