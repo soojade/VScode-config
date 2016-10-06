@@ -5,5 +5,17 @@
     "editor.mouseWheelZoom": true,
     "editor.renderWhitespace": true,
     "editor.renderIndentGuides": true,
-    "files.autoSave": "onFocusChange"
+
+    "files.autoSave": "onFocusChange",
+
+    "extensions.autoUpdate": true,
+
+    "terminal.integrated.cursorBlinking": true,
+
+    "auto-close-tag.activationOnLanguage": [
+        "html",
+        "xml",
+        "javascript",
+        "typescirpt",
+    ]
 }
