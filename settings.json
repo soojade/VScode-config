@@ -1,11 +1,12 @@
 // 将设置放入此文件中以覆盖默认设置
 {
-    "editor.fontFamily": "Source Code Pro,Fira Mono",
+    "editor.fontFamily": "Microsoft YaHei Mono,Source Code Pro,Fira Mono",
+    "editor.fontSize": 15,
     "editor.wordWrap": true,
     "editor.mouseWheelZoom": true,
     "editor.renderWhitespace": true,
     "editor.renderIndentGuides": true,
-
+    "editor.formatOnType": true, // 输入分号自动格式化
     "files.autoSave": "onFocusChange",
 
     "extensions.autoUpdate": true,
@@ -17,5 +18,7 @@
         "xml",
         "javascript",
         "typescirpt",
-    ]
+    ],
+
+    "typescript.tsdk": "node_modules/typescript/lib",
 }
