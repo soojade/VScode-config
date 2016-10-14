@@ -2,6 +2,7 @@
 {
     "editor.fontFamily": "Source Code Pro,Fira Mono",
     "editor.fontSize": 15,
+    "editor.tabSize": 2,
     "editor.wordWrap": true,
     "editor.mouseWheelZoom": true,
     "editor.renderWhitespace": "boundary",
@@ -19,4 +20,11 @@
         "typescirpt",
     ],
     "typescript.tsdk": "node_modules/typescript/lib",
+    // 背景图片
+    "background.useDefault": false,
+    "background.customImages": [
+        "file:///F:/Photo/1fb168.png",
+        "file:///F:/Photo/2168.png",
+        "file:///F:/Photo/e6268.png"
+    ],
 }
