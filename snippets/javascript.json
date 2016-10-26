@@ -1,0 +1,23 @@
+{
+	"Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+		],
+		"description": "Log output to console"
+	},
+	"import from": {
+		"prefix": "impf",
+		"body": "import $1 from '$2';",
+		"description": "import from"
+	},
+	"const": {
+		"prefix": "cot",
+		"body": "const $1 = $2;",
+		"description": "const ="
+	},
+	"ReactDOM render": {
+		"prefix": "rerd",
+		"body": "ReactDOM.render(<$1 />,document.getElementById('$2'));"
+	}
+}

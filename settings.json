@@ -1,12 +1,16 @@
-// 将设置放入此文件中以覆盖默认设置
 {
-    "editor.fontFamily": "Source Code Pro,Fira Mono",
-    "editor.fontSize": 15,
-    "editor.tabSize": 2,
-    "editor.wordWrap": true,
+    // "globalDependencies": {
+    //     "core-js": "registry:dt/core-js#0.0.0+20160725163759",
+    //     "jasmine": "registry:dt/jasmine#2.2.0+20160621224255",
+    //     "node": "registry:dt/node#6.0.0+20160909174046"
+    // },
+    "editor.fontFamily": "Source Code Pro",
+    "editor.fontSize": 16,
     "editor.mouseWheelZoom": true,
+    // "editor.wordWrap":true ,
+    "editor.wrappingColumn": 80,
     "editor.renderWhitespace": "boundary",
-    "editor.lineNumbers": "relative",
+    // "editor.lineNumbers": "relative",
     "editor.renderIndentGuides": true,
     "editor.formatOnType": true, // 输入分号自动格式化
     "editor.formatOnSave": true, // 保存自动格式化
@@ -19,7 +23,6 @@
         "javascript",
         "typescirpt",
     ],
-    "typescript.tsdk": "node_modules/typescript/lib",
     // 背景图片
     "background.useDefault": false,
     "background.customImages": [
