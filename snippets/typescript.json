@@ -13,24 +13,48 @@
 		"description": "Log output to console"
 	}
 */
+	"console log": {
+		"prefix": "clg",
+		"body": "console.log($1);"
+	},
 	"import core": {
 		"prefix": "imc",
-		"body": "import { ${NgModule} } from '@angular/core';",
+		"body": "import { ${ NgModule } } from '@angular/core';"
 	},
 	"import platform-browser": {
 		"prefix": "imp",
-		"body": "import { ${BrowserModule} } from '@angular/platform-browser';",
+		"body": "import { ${BrowserModule} } from '@angular/platform-browser';"
 	},
 	"import platformBrowserDynamic": {
 		"prefix": "impd",
 		"body": "import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';"
 	},
+	"import router": {
+		"prefix": "impr",
+		"body": "import { ${RouterModule} } from '@angular/router';"
+	},
+	"import forms":{
+		"prefix": "impff",
+		"body": "import { ${FormsModule} } from '@angular/forms';"
+	},
+	"import http":{
+		"prefix": "imph",
+		"body": "import { ${Http, Headers} } from '@angular/http';"
+	},
+	"import common":{
+		"prefix": "impc",
+		"body": "import { ${CommonModule} } from '@angular/common';"
+	},
+	"import InMemoryDbservice":{
+		"prefix": "impim",
+		"body": "import { ${InMemoryDbService} } from 'angular-in-memory-web-api';"
+	},
 	"import from": {
 		"prefix": "impf",
-		"body": "import {$1} from './$2';",
+		"body": "import { $1 } from './$2';"
 	},
 	"export class": {
-		"prefix": "expclass",
+		"prefix": "exclass",
 		"body": "export class $1 {$2}",
 		"description": "export class"
 	}

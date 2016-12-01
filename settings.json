@@ -1,33 +1,46 @@
 {
-    // "globalDependencies": {
-    //     "core-js": "registry:dt/core-js#0.0.0+20160725163759",
-    //     "jasmine": "registry:dt/jasmine#2.2.0+20160621224255",
-    //     "node": "registry:dt/node#6.0.0+20160909174046"
-    // },
+
     "editor.fontFamily": "Source Code Pro",
+
     "editor.fontSize": 16,
+
     "editor.mouseWheelZoom": true,
-    // "editor.wordWrap":true ,
+
+    "editor.wordWrap":true,
+
     "editor.wrappingColumn": 80,
+
     "editor.renderWhitespace": "boundary",
-    // "editor.lineNumbers": "relative",
+
     "editor.renderIndentGuides": true,
+
     "editor.formatOnType": true, // 输入分号自动格式化
-    "editor.formatOnSave": true, // 保存自动格式化
+
+    // "editor.formatOnSave": true, // 保存自动格式化
+
     "files.autoSave": "onFocusChange",
+
     "extensions.autoUpdate": true,
+
+    "telemetry.enableCrashReporter": false,
+
     "terminal.integrated.cursorBlinking": true,
-    "auto-close-tag.activationOnLanguage": [
-        "html",
-        "xml",
-        "javascript",
-        "typescirpt",
-    ],
+
     // 背景图片
+
     "background.useDefault": false,
+
     "background.customImages": [
+
         "file:///F:/Photo/1fb168.png",
+
         "file:///F:/Photo/2168.png",
+
         "file:///F:/Photo/e6268.png"
+
     ],
+    "dart.sdkPath": "D:\\program\\dart\\sdk",
+    "typescript.check.workspaceVersion": false,
+    "dart.debugSdkLibraries": false,
+    "dart.debugExternalLibraries": false
 }
