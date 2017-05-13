@@ -1,46 +1,29 @@
+// 将设置放入此文件中以覆盖默认设置
 {
-
-    "editor.fontFamily": "Source Code Pro",
-
-    "editor.fontSize": 16,
-
-    "editor.mouseWheelZoom": true,
-
-    "editor.wordWrap":true,
-
-    "editor.wrappingColumn": 80,
-
-    "editor.renderWhitespace": "boundary",
-
-    "editor.renderIndentGuides": true,
-
-    "editor.formatOnType": true, // 输入分号自动格式化
-
-    // "editor.formatOnSave": true, // 保存自动格式化
-
+    // 调账窗口ui缩放
+    "window.zoomLevel": -1,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.welcome.enabled": false,
+    "workbench.colorTheme": "material",
+    "editor.fontFamily": "source code pro",
+    "workbench.colorCustomizations": {
+        // "contrastActiveBorder": "#004000",
+        "contrastBorder": "#004000"
+    },
+    "terminal.integrated.shell.windows": "C:\\Windows\\Sysnative\\cmd.exe",
     "files.autoSave": "onFocusChange",
-
-    "extensions.autoUpdate": true,
-
-    "telemetry.enableCrashReporter": false,
-
-    "terminal.integrated.cursorBlinking": true,
-
-    // 背景图片
-
-    "background.useDefault": false,
-
-    "background.customImages": [
-
-        "file:///F:/Photo/1fb168.png",
-
-        "file:///F:/Photo/2168.png",
-
-        "file:///F:/Photo/e6268.png"
-
-    ],
-    "dart.sdkPath": "D:\\program\\dart\\sdk",
-    "typescript.check.workspaceVersion": false,
-    "dart.debugSdkLibraries": false,
-    "dart.debugExternalLibraries": false
+    "editor.mouseWheelZoom": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    // 显示空白字符
+    "editor.renderWhitespace": "boundary",
+    "editor.renderIndentGuides": true,
+    "rust.rls": {
+        "executable": "rustup",
+        "args": [
+            "run",
+            "nightly",
+            "rls"
+        ]
+    }
 }
