@@ -1,8 +1,46 @@
 // 将键绑定放入此文件中以覆盖默认值
 [
     {
-        "key": "ctrl+;",
+        "key": "alt+oem_7",
         "command": "cursorEnd",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+h",
+        "command": "editor.action.moveCarretLeftAction"
+    },
+    {
+        "key": "alt+l",
+        "command": "editor.action.moveCarretRightAction"
+    },
+    {
+        "key": "alt+oem_1",
+        "command": "cursorHome",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "home",
+        "command": "-cursorHome",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+j",
+        "command": "cursorUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "up",
+        "command": "-cursorUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+k",
+        "command": "cursorDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "down",
+        "command": "-cursorDown",
         "when": "editorTextFocus"
     }
 ]

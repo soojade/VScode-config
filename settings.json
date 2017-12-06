@@ -3,7 +3,6 @@
     // 调账窗口ui缩放
     "window.zoomLevel": -1,
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.welcome.enabled": false,
     "workbench.colorTheme": "material",
     "editor.fontFamily": "source code pro",
     "workbench.colorCustomizations": {
@@ -19,18 +18,24 @@
     // 显示空白字符
     "editor.renderWhitespace": "boundary",
     "editor.renderIndentGuides": true,
+    "rust.mode": "rls",
     "rust.rls": {
         "executable": "rustup",
         "args": [
             "run",
             "nightly",
             "rls"
-        ]
+        ],
+        "useRustfmt": true
     },
     "git.confirmSync": false,
-    "newFile.defaultBaseFileName": "",
-    // 自定义css
-    "vscode_custom_css.imports": [
-        "file:///F:/BackUp/code-config/custom_css.css"
-    ]
+    "rust.rustup": {
+        "toolchain": "stable-x86_64-pc-windows-msvc"
+    },
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 15,
+    "workbench.startupEditor": "newUntitledFile",
+    "git.enableSmartCommit": true,
+    "workbench.activityBar.visible": true,
+    "emmet.triggerExpansionOnTab": true
 }
